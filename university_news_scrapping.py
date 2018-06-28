@@ -64,7 +64,7 @@ def daily_news():
 
 		data_list.append(data)
 
-		with open ('news/' + today + '.csv','w') as file:
+		with open ('/' + today + '.csv','w') as file:
 
 			writer = csv.writer(file)
 
